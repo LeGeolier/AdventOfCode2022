@@ -12,12 +12,9 @@ def main():
         else:
             value += int(line)
     sumOfThree = 0
-    count = 0
     for i in range(3):
         sumOfThree += max(response)
         response.remove(max(response))
-        count+=1
-        print(count)
     print(sumOfThree)
     return
 
